@@ -13,7 +13,7 @@ public:
 	{
 	}
 
-	void replaceInFile(const std::string& fInPath, const std::string fOutPath)
+	void ReplaceInFile(const std::string& fInPath, const std::string fOutPath)
 	{
 		std::ifstream input(fInPath, std::ios::in);
 		std::ofstream output(fOutPath, std::ios::out);
@@ -24,7 +24,7 @@ public:
 		std::string readData;
 		while (std::getline(input, readData))
 		{
-			output << replace(readData) << std::endl;
+			output << Replace(readData) << std::endl;
 		}
 
 		input.close();
@@ -35,7 +35,7 @@ private:
 	std::string m_pattern;
 	std::string m_replacement;
 
-	std::string replace(const std::string& line)
+	std::string Replace(const std::string& line)
 	{
 		std::string result = "";
 
@@ -67,5 +67,5 @@ int main(int argc, char** argv)
 		replacementString(argv[4]);
 
 	StreamReplacer replacer(searchString, replacementString);
-	replacer.replaceInFile(inputFileName, outputFileName);
+	replacer.ReplaceInFile(inputFileName, outputFileName);
 }
