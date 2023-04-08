@@ -15,15 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HTMLDecode.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="HtmlDecoder.cpp">
+    <ClCompile Include="minidict.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="HtmlDecoder.h">
+    <ClInclude Include="..\vector_6\io_functions.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
   </ItemGroup>

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d5015feb-2fa8-47b3-9dda-e5e02d8e2da8}</ProjectGuid>
-    <RootNamespace>HTMLDecode</RootNamespace>
+    <ProjectGuid>{ee9148ce-6513-45fd-9e8e-a67e087fcf9b}</ProjectGuid>
+    <RootNamespace>minidict</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -93,6 +93,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -100,12 +101,6 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
-    <PostBuildEvent>
-      <Command>test.bat</Command>
-    </PostBuildEvent>
-    <PostBuildEvent>
-      <Message>Run tests</Message>
-    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -136,11 +131,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="HTMLDecode.cpp" />
-    <ClCompile Include="HtmlDecoder.cpp" />
+    <ClCompile Include="minidict.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="HtmlDecoder.h" />
+    <ClInclude Include="..\vector_6\io_functions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
