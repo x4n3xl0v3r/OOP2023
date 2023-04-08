@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{444b9afe-7e38-41c2-9965-be68db89d515}</ProjectGuid>
-    <RootNamespace>Radix</RootNamespace>
+    <ProjectGuid>{d5015feb-2fa8-47b3-9dda-e5e02d8e2da8}</ProjectGuid>
+    <RootNamespace>HTMLDecode</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -100,12 +100,12 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
-    <PreBuildEvent>
-      <Command>test.bat</Command>
-    </PreBuildEvent>
-    <PreBuildEvent>
-      <Message>tests</Message>
-    </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>tester.bat</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Run tests</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -136,7 +136,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Radix.cpp" />
+    <ClCompile Include="HTMLDecode.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HtmlDecoder.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
