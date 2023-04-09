@@ -1,0 +1,6 @@
+привет
+привет
+привет
+Unknown word ``something``. Enter translation or empty string [deny translation]
+Word ``something`` ignored.
+Bye.

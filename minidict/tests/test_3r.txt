@@ -1,0 +1,12 @@
+Unknown word ``кошка``. Enter translation or empty string [deny translation]
+Word ``кошка`` saved in dictionary with translations: cat
+Unknown word ``кот``. Enter translation or empty string [deny translation]
+Word ``кот`` saved in dictionary with translations: cat
+кот, кошка
+кот, кошка
+Unknown word ``dog``. Enter translation or empty string [deny translation]
+Word ``dog`` saved in dictionary with translations: собака, собачка, собакен
+dog
+собака, собакен, собачка
+Dictionary has been changed. Press `Y`/`y` to save changes.
+Changes saved. Bye.

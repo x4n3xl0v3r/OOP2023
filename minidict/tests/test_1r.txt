@@ -1,0 +1,9 @@
+Unknown word ``Hi``. Enter translation or empty string [deny translation]
+Word ``Hi`` saved in dictionary with translations: привет
+привет
+Unknown word ``hello``. Enter translation or empty string [deny translation]
+Word ``hello`` saved in dictionary with translations: привет
+привет
+Hi, hello
+Dictionary has been changed. Press `Y`/`y` to save changes.
+Changes saved. Bye.

@@ -1,0 +1,4 @@
+Unknown word ``waow``. Enter translation or empty string [deny translation]
+Word ``waow`` saved in dictionary with translations: сюс
+Dictionary has been changed. Press `Y`/`y` to save changes.
+Changes discarded. Bye.

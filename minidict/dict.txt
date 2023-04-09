@@ -1,48 +1,12 @@
-Egor Bahtin;пидор
-Obama;ќбезъ€на
-PepePupu;ѕепеѕупу
-Pidr;ѕидарюга;пидарюга
-Poroschenko Dmitry;’уила
-U;ты
-ZELEMSKY;свиЌ№я
-bye;пока
-dick;хуй;член
-dog;пЄс;пЄсик;псина
-girl;девочка
+Hi;привет
+cat;кот;кошка
+dog;собака;собакен;собачка
 hello;привет
-hi;привет
-his;твой
-horse;конь;лошадь
-pedovka;ан€;кристина;полина
-pussy;киска;милашка;пис€
-slut;девочка
-snow;снег;снежинка;снежок
-ur;твой
-you;ты
-ќбезъ€на;Obama
-ѕепеѕупу;PepePupu
-ѕидарюга;Pidr;pidr
-’уила;Poroschenko Dmitry
-ан€;pedovka
-девочка;girl;slut
-киска;pussy
-конь;horses
-кристина;pedovka
-лошадь;horse
-милашка;pussy
-пЄс;dog
-пЄсик;dog
-пидор;Egor Bahtin
-пис€;pussy
-пока;bye
-полина;pedovka
-привет;hello;hi
-псина;dog
-свиЌ№я;ZELEMSKY
-снег;snow
-снежинка;snow
-снежок;snow
-твой;his;ur
-ты;U;you
-хуй;dick
-член;dick
+waow;нужное значение
+кот;cat
+кошка;cat
+нужное значение;waow
+привет;Hi;hello
+собака;dog
+собакен;dog
+собачка;dog
