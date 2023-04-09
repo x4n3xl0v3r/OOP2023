@@ -18,9 +18,15 @@
     <ClCompile Include="minidict.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="DictProvider.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\vector_6\io_functions.h">
+    <ClInclude Include="DictProvider.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
   </ItemGroup>
